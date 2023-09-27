@@ -46,7 +46,7 @@
 .heading{
     display: flex;
     align-items: center;
-    margin-left: 0px;
+    margin-left: 60px;
 
 }
 .heading p{
@@ -108,6 +108,7 @@
 }
 .servicepage h3{
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 35px;
     text-transform: capitalize;
@@ -151,7 +152,7 @@
 }
 .cardcontainer-1{
     display: grid;
-    padding: 0px 20px;
+    padding: 20px 20px;
     width: 100%;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     gap: 2rem;
@@ -189,7 +190,7 @@
     background-color: #4b208c;
     border-radius: 30px;
     margin: 0px;
-    margin-left: 160px;
+    margin-left: 150px;
 }
 .last button a{
     text-decoration: none;
@@ -209,6 +210,7 @@
 .content{
     margin-left: 0px;
     width: 100%;
+    padding: 20px;
 }
 .aboutpage .content h3{
     text-transform: capitalize;
@@ -239,6 +241,7 @@
     border: 6px solid #6f42c1;
     border-radius:300px;
     margin: 0px;
+    padding-top: 15px;
     
 }
 .image-2 img{
@@ -249,7 +252,7 @@
     margin-left:230px;
 }
 .blogpage{
-    margin-top: -120px;
+    margin-top: -150px;
     background-color: whitesmoke;
 }
 .blogpage h3{
@@ -303,6 +306,7 @@
 }
 .inputs{
     margin-left: 0px;
+    padding: 20px;
 }
 .inputs h3{
     text-transform: capitalize;
@@ -335,7 +339,7 @@ textarea{
 }
 .map{
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 20px;
 }
 .footer{
     background-color: #190734;
