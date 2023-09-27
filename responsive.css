@@ -118,7 +118,7 @@
 .cardcontainer{
     display: grid;
     width: 100%;
-    padding: 0px;
+    padding: 0px 20px;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 2rem;
 }
@@ -151,7 +151,7 @@
 }
 .cardcontainer-1{
     display: grid;
-    padding: 0px 0px;
+    padding: 0px 20px;
     width: 100%;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     gap: 2rem;
@@ -312,12 +312,12 @@
 }
 input{
     height: 50px;
-    width: 460px;
+    width: 100%;
     margin-bottom: 20px;
     font-size: 15px;
 } 
 textarea{
-    padding:0px;
+    width: 100%;
     font-size: 15px;
     margin-bottom: 10px;
 }
@@ -358,6 +358,7 @@ textarea{
 }
 .footer input{
     margin: 20px 0px 0px 0px;
+    width: 100%;
 }
 .cribe{
     display: flex;
